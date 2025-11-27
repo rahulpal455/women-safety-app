@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Women Safety — Prototype</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+<body>
+
+  <!-- ======================= TOP NAV BAR ======================= -->
+  <header class="topbar">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 24 24" width="28" height="28" aria-hidden>
+        <path fill="currentColor"
+          d="M12 2C9 2 3 4 3 10v6a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6c0-6-6-8-9-8z"></path>
+      </svg>
+      <div>
+        <div class="title">Women Safety</div>
+        <div class="subtitle">Real-time SOS & Tracking</div>
+      </div>
+    </div>
+
+    <nav>
+      <button id="nav-signup" class="ghost">Sign Up</button>
+      <button id="nav-login" class="ghost">Login</button>
+      <button id="nav-logout" class="ghost" style="display:none">Logout</button>
+    </nav>
+  </header>
+
+  <!-- ======================= MAIN BODY ======================= -->
+  <main class="main">
+
+    <!-- ======================= SIGNUP ======================= -->
+    <section class="card center" id="signup-box">
+      <h2>Create Account</h2>
+      <div class="form-row">
+        <input id="su-name" placeholder="Full name" />
+        <input id="su-email" placeholder="Email" />
+        <input id="su-phone" placeholder="Phone (+91...)" />
+        <input id="su-password" type="password" placeholder="Password" />
+        <button id="btn-signup" class="primary">Create Account</button>
+        <p class="muted">Already have an account?
+          <a href="#" id="to-login">Login</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ======================= LOGIN ======================= -->
+    <section class="card center" id="login-box" style="display:none">
+      <h2>Welcome Back</h2>
+      <div class="form-row">
+        <input id="li-email" placeholder="Email" />
+        <input id="li-password" type="password" placeholder="Password" />
+        <button id="btn-login" class="primary">Login</button>
+        <p class="muted">New user?
+          <a href="#" id="to-signup">Sign Up</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ======================= DASHBOARD ======================= -->
+    <section class="card" id="dash-box" style="display:none">
+
+      <div class="dash-head">
+        <div>
+          <h3 id="welcome">Welcome</h3>
+          <p class="muted small">Add emergency contacts and start live tracking</p>
+        </div>
+
+        <div class="actions">
+          <button id="btn-track" class="outline">Start Tracking</button>
+          <button id="btn-stop" class="outline" style="display:none">Stop</button>
+          <button id="btn-sos" class="sos">🚨 SOS</button>
+
+          <!-- Fake Call Button Added -->
+          <button id="btn-fake-call" class="outline">📞 Fake Call</button>
+        </div>
+      </div>
+
+      <div class="dash-grid">
+        <!-- CONTACT PANEL -->
+        <div class="panel">
+          <h4>Emergency Contacts</h4>
+          <div id="contacts-list" class="contacts-list">No contacts yet</div>
+
+          <div class="contact-form">
+            <input id="c-name" placeholder="Contact name" />
+            <input id="c-phone" placeholder="Contact phone (+91...)" />
+            <button id="add-contact" class="primary small">Add / Save</button>
+          </div>
+        </div>
+
+        <!-- MAP PANEL -->
+        <div class="panel">
+          <h4>Live Map</h4>
+          <div id="map" style="height:320px;border-radius:8px;overflow:hidden"></div>
+          <p id="loc-status" class="muted small">Location: not tracking</p>
+        </div>
+      </div>
+
+      <div id="log" class="log muted small"></div>
+    </section>
+
+  </main>
+
+  <!-- ======================= TOAST ======================= -->
+  <div id="toast" class="toast" style="display:none"></div>
+
+  <!-- ======================= FAKE CALL FULL SCREEN ======================= -->
+  <div id="fake-call-screen" class="fake-call" style="display:none;">
+    <h2>Incoming Call...</h2>
+    <p>Mom</p>
+    <button id="fake-call-end" class="primary">End</button>
+  </div>
+
+  <!-- JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

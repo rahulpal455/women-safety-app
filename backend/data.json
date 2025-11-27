@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": "e7583429-4bc7-4a75-b18f-74900621503b",
+      "name": "Rahul Pal",
+      "email": "rahulpal91713@gmail.com",
+      "password": "$2b$10$zXBBjCa7RYRG1Jrmw/JireKG7BiuMhmE08f1BYff6nXauj9wyavnK",
+      "phone": "9171628876",
+      "createdAt": 1764179442067,
+      "lastLocation": {
+        "latitude": 23.2402017,
+        "longitude": 77.5390127,
+        "time": 1764257381060
+      }
+    },
+    {
+      "id": "4fed682e-a559-4d51-a394-477abbaea0bc",
+      "name": "riya shukla",
+      "email": "riya7354@gmail.com",
+      "password": "$2b$10$ylP.WXzWc.EzJr/ZdhampOfVbFs9ohMpJ97kUXqjYY.UPD7FvKin2",
+      "phone": "7354228406",
+      "createdAt": 1764219139956
+    }
+  ],
+  "contacts": [
+    {
+      "id": "07d2913d-1c6d-4eee-94b3-7e0c2e4b46f2",
+      "userId": "4fed682e-a559-4d51-a394-477abbaea0bc",
+      "name": "Home",
+      "phone": "(+91-7354228406"
+    },
+    {
+      "id": "0540e867-d106-4c68-a0d6-5f90e4ea5d5a",
+      "userId": "4fed682e-a559-4d51-a394-477abbaea0bc",
+      "name": "Police",
+      "phone": "105"
+    },
+    {
+      "id": "dee0b142-cb65-411c-9c12-55edd9c11ca5",
+      "userId": "e7583429-4bc7-4a75-b18f-74900621503b",
+      "name": "satish",
+      "phone": "8815685183"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "92e030f4-eb0d-497f-af1d-7c23c1a1d01e",
+      "userId": "e7583429-4bc7-4a75-b18f-74900621503b",
+      "latitude": 23.2599333,
+      "longitude": 77.412615,
+      "time": 1764179677447,
+      "message": "⚠️ SOS! Rahul Pal needs help. Live location: https://www.google.com/maps?q=23.2599333,77.412615"
+    },
+    {
+      "id": "7b0a8008-f12b-4dca-81f5-707923c43e8b",
+      "userId": "e7583429-4bc7-4a75-b18f-74900621503b",
+      "latitude": 23.2402017,
+      "longitude": 77.5390127,
+      "time": 1764252629979,
+      "message": "⚠️ SOS! Rahul Pal needs help. Live location: https://www.google.com/maps?q=23.2402017,77.5390127"
+    },
+    {
+      "id": "f8c7ebdc-ad21-4e28-b061-56419d527fc4",
+      "userId": "e7583429-4bc7-4a75-b18f-74900621503b",
+      "latitude": 23.2402017,
+      "longitude": 77.5390127,
+      "time": 1764253526598
+    },
+    {
+      "id": "4f2365d2-9698-4fc6-b4c5-a54d8babd4d8",
+      "userId": "e7583429-4bc7-4a75-b18f-74900621503b",
+      "latitude": 23.2402017,
+      "longitude": 77.5390127,
+      "time": 1764253704867
+    }
+  ]
+}
