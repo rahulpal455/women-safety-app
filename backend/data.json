@@ -8,9 +8,9 @@
       "phone": "9171628876",
       "createdAt": 1764179442067,
       "lastLocation": {
-        "latitude": 23.2402017,
-        "longitude": 77.5390127,
-        "time": 1764257381060
+        "latitude": 23.2553257,
+        "longitude": 77.4884011,
+        "time": 1764267140389
       }
     },
     {
@@ -20,6 +20,35 @@
       "password": "$2b$10$ylP.WXzWc.EzJr/ZdhampOfVbFs9ohMpJ97kUXqjYY.UPD7FvKin2",
       "phone": "7354228406",
       "createdAt": 1764219139956
+    },
+    {
+      "id": "7b8ba87e-84a2-4377-b2e6-c329f8907774",
+      "name": "rahul",
+      "email": "saratakrrahul04@gmail.com",
+      "password": "$2b$10$UPpkceYIvy86W0xi/0DUM.bENd3S.6cb1ykIMEqV3pSJy20kKq5ge",
+      "phone": "9691070297",
+      "createdAt": 1764266903237
+    },
+    {
+      "id": "8d034702-0b2c-4778-a68e-b29ef2f05019",
+      "name": "rashmi",
+      "email": "rashmi12@gmail.com",
+      "password": "$2b$10$OxnHIcvYXF6hz3Lcpk9BLu7Vca711bNfBLrbJ1cbzPexpVav2rj6u",
+      "phone": "9171628876",
+      "createdAt": 1764267366879
+    },
+    {
+      "id": "70224a37-eeb2-441c-9808-59552bbbca1c",
+      "name": "Harshita",
+      "email": "harshita@gmail.com",
+      "password": "$2b$10$fTDylAtXxEkxkVokvDnjxuugY4lIRLjN/nsvEv3S.3L9hk1qpsL32",
+      "phone": "9171628876",
+      "createdAt": 1764267869345,
+      "lastLocation": {
+        "latitude": 23.2402017,
+        "longitude": 77.5390127,
+        "time": 1764267923423
+      }
     }
   ],
   "contacts": [
@@ -40,6 +69,18 @@
       "userId": "e7583429-4bc7-4a75-b18f-74900621503b",
       "name": "satish",
       "phone": "8815685183"
+    },
+    {
+      "id": "71855bdc-8453-45d0-9001-c9374842a53d",
+      "userId": "8d034702-0b2c-4778-a68e-b29ef2f05019",
+      "name": "ma",
+      "phone": "9691070297"
+    },
+    {
+      "id": "e512ce52-e8c2-448c-841e-28fbe0295f34",
+      "userId": "70224a37-eeb2-441c-9808-59552bbbca1c",
+      "name": "Ma",
+      "phone": "9171628876"
     }
   ],
   "alerts": [
